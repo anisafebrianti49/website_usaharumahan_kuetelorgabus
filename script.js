@@ -5,16 +5,16 @@ const flavors = {
     tag:   'Klasik',
     badge: 'Best Seller',
     price: 25000,
-    img:   'foto-original.png',
-    desc:  'Cita rasa gurih asin klasik yang tak pernah lekang waktu. Taburan wijen yang harum menambah sensasi renyah sempurna di setiap gigitan — cocok dinikmati kapan saja bersama keluarga.',
-    tags:  ['🧂 Gurih Asin', '🌾 Taburan Wijen', '👶 Aman Anak']
+    img:   'foto-gulamerah.png',
+    desc:  'Cita rasa gurih asin klasik yang tak pernah lekang waktu. Tambahan keju diadonannya menambah rasa gurih sempurna di setiap gigitan — cocok dinikmati kapan saja bersama keluarga.',
+    tags:  ['🧂 Gurih Asin', '🌾 Tekstur Renyah', '👶 Aman Anak']
   },
   gulamerah: {
     name:  'Telor Gabus Gula Merah',
     tag:   'Favorit',
     badge: 'Populer',
     price: 27000,
-    img:   'foto-gulamerah.png',
+    img:   'foto-original.png',
     desc:  'Manisnya gula merah alami yang khas berpadu dengan tekstur renyah telor gabus. Aroma karamel yang hangat bikin nagih dari gigitan pertama — sempurna untuk yang suka manis legit.',
     tags:  ['🍯 Gula Merah Asli', '🍮 Manis Legit', '🌟 Wangi Karamel']
   },
@@ -31,11 +31,11 @@ const flavors = {
 
 const testimonials = [
   { name: 'Siti Rahayu',    loc: 'Bandung',    emoji: '👩',    stars: 5, text: '"Beneran enak banget! Yang rasa gula merahnya juara, manisnya pas dan renyahnya luar biasa. Udah order lebih dari 5x dan selalu puas!"' },
-  { name: 'Budi Santoso',   loc: 'Jakarta',    emoji: '👨',    stars: 5, text: '"Pertama kali nyobain yang original, langsung jatuh cinta sama cita rasa autentiknya. Wijen-nya bikin beda dari yang lain. Pasti repeat order!"' },
-  { name: 'Dewi Kurnia',    loc: 'Surabaya',   emoji: '👩‍🦱', stars: 5, text: '"Beli buat hampers lebaran, semua orang suka! Yang rasa gula putih disukai anak-anak, yang original disukai bapak-bapak. Perfect!"' },
-  { name: 'Rizal Fauzan',   loc: 'Yogyakarta', emoji: '🧑',    stars: 5, text: '"Kirimnya cepet, packaging rapi, sampai masih krispy! Cobain ketiga rasa sekaligus, favorit aku yang gula merah. Aromanya harum banget."' },
-  { name: 'Anisa Maharani', loc: 'Bekasi',     emoji: '👩‍🦰', stars: 5, text: '"Telor gabus terenak yang pernah aku makan! Stok rumah harus selalu ada nih. Yang gula putih cocok banget buat teman nonton."' },
-  { name: 'Hendra Wijaya',  loc: 'Depok',      emoji: '👨‍🦲', stars: 4, text: '"Harga terjangkau untuk kualitas premium. Dibawa oleh-oleh ke kantor habis dalam 10 menit! Teman-teman langsung minta info ordernya."' },
+  { name: 'Budi Santoso',   loc: 'Bandung',    emoji: '👨',    stars: 5, text: '"Pertama kali nyobain yang original, langsung jatuh cinta sama cita rasa autentiknya. Wijen-nya bikin beda dari yang lain. Pasti repeat order!"' },
+  { name: 'Dewi Kurnia',    loc: 'Bandung',   emoji: '👩‍🦱', stars: 5, text: '"Beli buat hampers lebaran, semua orang suka! Yang rasa gula putih disukai anak-anak, yang original disukai bapak-bapak. Perfect!"' },
+  { name: 'Rizal Fauzan',   loc: 'Bandung', emoji: '🧑',    stars: 5, text: '"Kirimnya cepet, packaging rapi, sampai masih krispy! Cobain ketiga rasa sekaligus, favorit aku yang gula merah. Aromanya harum banget."' },
+  { name: 'Anisa Maharani', loc: 'Bandung',     emoji: '👩‍🦰', stars: 5, text: '"Telor gabus terenak yang pernah aku makan! Stok rumah harus selalu ada nih. Yang gula putih cocok banget buat teman nonton."' },
+  { name: 'Hendra Wijaya',  loc: 'Bandung',      emoji: '👨‍🦲', stars: 4, text: '"Harga terjangkau untuk kualitas premium. Dibawa oleh-oleh ke kantor habis dalam 10 menit! Teman-teman langsung minta info ordernya."' },
 ];
 
 const faqs = [
